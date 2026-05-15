@@ -1,0 +1,47 @@
+/* LSE job-market-template style, customised for Tsz Ching Fan */
+html { min-height:100%; overflow-y:scroll; }
+body { margin:0; padding:0; min-height:100vh; background:#F1EFEE; color:#222; font-family: Georgia, 'Times New Roman', serif; font-size:14px; line-height:1.5; }
+a { color:#571135; text-decoration:none; }
+a:hover { text-decoration:underline; }
+#wrapper {
+    width:100%;
+    max-width:1300px;
+    margin:28px auto;
+    background:#fff;
+    border:1px solid #cfcfcf;
+    box-shadow:0 1px 4px rgba(0,0,0,.10);
+    box-sizing:border-box;
+}
+#topline { height:8px; background:#571135; }
+#header { padding:32px 28px 20px; border-bottom:1px solid #d8d8d8; text-align:center; }
+.lse-small { font-family: Arial, Helvetica, sans-serif; text-transform:uppercase; color:#571135; font-size:13px; letter-spacing:1px; margin-bottom:12px; }
+h1 { margin:0 0 3px; font-size:34px; font-weight:normal; color:#111; }
+.subtitle { font-size:14px; color:#555; margin-top:2px; margin-bottom:10px; }
+#nav { background:#F1EFEE; border-top:1px solid #fff; border-bottom:1px solid #cfcfcf; padding:7px 28px; font-family: Arial, Helvetica, sans-serif; font-size:13px; }
+#nav a { color:#333; margin-right:22px; }
+#nav a.active { color:#571135; font-weight:bold; }
+#content { padding:28px; min-height:470px; }
+#content.home h2 { font-size:22px; }
+#content.home p { font-size:15px; margin:0 16px 16px 0; }
+#content.research .item { margin-left:0; }
+#content.research .paper-title,
+#content.research .note { margin-left:0; }
+#content.research .abstract { font-size:13px; margin:0 16px 0 16px; text-indent:0; }
+.two-col { display:grid; grid-template-columns: 300px 1fr; gap:40px; align-items:start; }
+.photo { width:300px; height:380px; border:none; background:transparent; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+h2 { color:#571135; font-size:19px; font-weight:normal; border-bottom:1px solid #ddd; padding-bottom:3px; margin:0 0 15px; }
+h2.section-gap { margin-top:24px; }
+h3 { font-size:16px; margin:18px 0 4px; font-weight:bold; }
+.item { margin-bottom:28px; }
+.note { color:#555; font-style:italic; margin:0 0 12px; }
+.paper-title { font-weight:bold; margin:0 0 3px; }
+.abstract { margin-top:6px; text-align:justify; }
+.footer { display:flex; align-items:flex-start; gap:16px; flex-wrap:wrap; border-top:1px solid #ddd; padding:12px 28px 18px; font-size:12px; color:#555; font-family:Arial, Helvetica, sans-serif; }
+.footer-logo { width:36px; height:auto; margin-top:4px; }
+.footer-right { display:flex; flex:1 1 auto; flex-direction:column; gap:8px; }
+.footer-links { display:flex; flex-wrap:wrap; gap:14px; align-items:center; }
+.footer span { margin-right:14px; }
+.quote { margin:0; padding:0; color:#555; font-style:italic; }
+ul.clean { list-style:none; padding-left:0; }
+ul.clean li { margin-bottom:6px; }
+@media(max-width:850px){ #wrapper{width:auto; margin:0; border:none;} .two-col{grid-template-columns:1fr;} .photo{width:220px;height:280px;} }
