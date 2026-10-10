@@ -49,6 +49,17 @@ h3 { font-size:17.6px; margin:18px 0 4px; font-weight:bold; }
 .footer-links { display:flex; flex-wrap:wrap; gap:14px; align-items:center; }
 .footer span { margin-right:14px; }
 .quote { margin:0; padding:0; color:#555; font-style:italic; }
+.teaching-triangle {
+    display:inline-block;
+    width:0.5em;
+    height:0.5em;
+    margin-right:0.4em;
+    background:#2d3f55;
+    border:1px solid #7a7a7a;
+    box-sizing:border-box;
+    clip-path:polygon(0 0, 100% 0, 50% 100%);
+    vertical-align:middle;
+}
 ul.clean { list-style:none; padding-left:0; }
 ul.clean li { margin-bottom:6px; }
 @media(max-width:850px) {
